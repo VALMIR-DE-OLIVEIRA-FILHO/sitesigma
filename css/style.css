@@ -4,21 +4,35 @@
 }
 #animais{
     margin: 1rem;
-    width: 400px;
+    width: 300px;
     height: 20rem;
-    background-color: black;
+    box-shadow: 10px 10px 5px rgb(150, 150, 150);
+    background-color: rgb(252, 251, 250);
+    
 }
-img{ width: 300px;
+img{ width: 200px;
      height: 150px;}
 #nome{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 #preco{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 #identid{
-    color: aliceblue;
+    color: rgb(14, 14, 14);
     text-align: center;
+}
+#detalhe{
+    width: 500px;
+    text-align: center;
+    background-color: yellow;
+    border-radius: 20px;
+}
+#detalhe img{
+    width: 400px;
+}
+#produto-detalhe{
+    
 }

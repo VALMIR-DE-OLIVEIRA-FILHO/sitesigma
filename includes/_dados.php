@@ -9,7 +9,7 @@ $produtos= array(0=> array('nome'=>'capivara','preco'=>' 16000','descricao'=>' U
                  7=> array('nome'=>'gavião','preco'=>' 35000','descricao'=>' Um simples gavião','imagem'=>'gavião.png'),
                  8=> array('nome'=>'avestruz','preco'=>' 30000','descricao'=>' Um simples avestruz','imagem'=>'avestruz.png'),
                  9=> array('nome'=>'anta','preco'=>' 30000','descricao'=>' Uma simples anta','imagem'=>'anta.png'),
-                 10=> array('nome'=>'falcão','preco'=>' 30000','descricao'=>' Um simples falcão','imagem'=>'falcão.png'),
+                 10=> array('nome'=>'falcão','preco'=>' 30000','descricao'=>' Um simples falcão','imagem'=>'falcão.jpg'),
                 
 
 

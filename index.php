@@ -7,19 +7,24 @@ include_once './includes/_header.php';
 
   <body>
   <div class="container">
+    <h2>promoção</h2>
   <div class="row">
-    
-    <?php 
-
-for ($i=0; $i <3 ; $i++) { 
-    echo "<div id='animais' class='col-sm'>";
-    echo "<h2 id='identid' class='container'>Animal:</h2>";
-     echo  "<p id='nome' class='container'>".$produtos[$i]['nome']."</p>";
-     echo  "<p id='preco' class='container'>  Preço: R$ ".$produtos[$i]['preco']."</p>";
-     echo "<img class='container' src='./content/".$produtos[$i]['imagem']."'>";
-     echo "</div>";
-};
-?>
+  <?php
+  for ($i=0; $i < 3 ; $i++) { 
+    # code...
+  
+  ?>
+  <div id="animais" class="card mt-5"  >
+  <img class="card-img-top" src="./content/<?php echo $produtos[$i]['imagem']   ?>" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title"><?php echo $produtos[$i]['nome']; ?></h5>
+    <p class="card-text"><?php echo $produtos[$i]['descricao'];?></p>
+    <a href="produto-detalhe.php?id=<?php echo$i ?>&tipo=promocao" class="btn btn-primary">Visitar</a>
+  </div>
+</div>
+<?php
+  }
+  ?>
     </div>
   </div>
 </div>

@@ -11,6 +11,19 @@ include_once './includes/_header.php';
     <h2>promoção</h2>
   <div class="row">
   <?php
+
+/*
+$sql = "SELECT * FROM categoria WHERE Ativo = 1";
+$exec = mysqli_query($conn, $sql);
+
+
+while($dados = mysqli_fetch_assoc($exec)){
+    echo "<pre>";
+    echo $dados['nome'];
+    echo "</pre>";
+}*/
+
+
   for ($i=0; $i < 3 ; $i++) { 
     # code...
   

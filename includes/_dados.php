@@ -16,4 +16,26 @@ $produtos= array(0=> array('nome'=>'capivara','preco'=>' 16000','descricao'=>' U
 
 );
 
+$sqlStr = "";
+
+
+
+foreach ($produtos as $key => $value) {
+
+    $nome = $value['nome'];
+
+    $descricao = $value['descricao'];
+
+    $imagem = $value['imagem'];
+
+    $preco = $value ['preco'];
+
+    $sqlStr = "$sqlStr<br>INSERT INTO `produtos` (`Nomes`, `descricao`, `imagem`, `preco`, `categoriaID`, `ativo`) VALUES ('$nome', '$descricao', '$imagem', '$preco', 1, 1); ";
+
+}
+
+
+
+print($sqlStr);
+
 ?>

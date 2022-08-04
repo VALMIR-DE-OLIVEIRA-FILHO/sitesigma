@@ -16,7 +16,7 @@ $produtos= array(0=> array('nome'=>'capivara','preco'=>' 16000','descricao'=>' U
 
 );
 
-$sqlStr = "";
+/*$sqlStr = "";
 
 
 
@@ -36,6 +36,6 @@ foreach ($produtos as $key => $value) {
 
 
 
-print($sqlStr);
+print($sqlStr);*/
 
 ?>

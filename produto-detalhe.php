@@ -6,7 +6,7 @@ include_once './includes/_dados.php';
 include_once './includes/_head.php';
 include_once './includes/_header.php';
 ?>
-<div class"container">
+<div class="container">
 <h1>Produto Detalhe</h1>
 </div>
 

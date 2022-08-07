@@ -4,9 +4,9 @@ $database = "sitesigma";
 $username = "root";
 $password = "";
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $database);
+$conexao = mysqli_connect($servername, $username, $password, $database);
 // Check connection
-if (!$conn) {
+if (!$conexao) {
     die("Connection failed: " . mysqli_connect_error());
 }
 

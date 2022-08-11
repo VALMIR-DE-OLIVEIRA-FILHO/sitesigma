@@ -34,9 +34,9 @@ if ($resultado) {
     # code...
 ?>
 <tr>
-<td><?php echo $dados['CategoriaID'];?></td>
-<td><a href="categoria-salvar.php?acao=salvar&id=<?php echo $dados['CategoriaID'];?>"><?php echo $dado['Nome'];?></a></td>
-<td><a href="categoria-processa.php?acao=excluir&id=<?php echo $dados['CategoriaID'];?>">Excluir</a></td>
+<td><?php echo $dados['categoriaID'];?></td>
+<td><a href="categoria-salvar.php?acao=salvar&id=<?php echo $dados['categoriaID'];?>"><?php echo $dados['nome'];?></a></td>
+<td><a href="categoria-processa.php?acao=excluir&id=<?php echo $dados['categoriaID'];?>">Excluir</a></td>
 </tr>
 
 <?php

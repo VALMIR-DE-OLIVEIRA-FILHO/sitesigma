@@ -41,6 +41,7 @@ if (isset($_GER['id'])|| !empty($_GER['id']))
     <?php
      }
     ?>
+    <input type="file" name ="foto">
     <hr>
     <input type="submit" value ="Enviar" >
 </form>
